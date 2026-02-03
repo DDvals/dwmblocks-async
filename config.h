@@ -34,9 +34,9 @@
 #define SCRIPT_DIR "~/.local/bin/statusbar/"
 
 #define BLOCKS(X) \
-    	X("CPU: ", SCRIPT_DIR"sb-loadavg", 5, 5) \
-    	X("Disk: ", SCRIPT_DIR"sb-disk", 1800, 3) \
-    	X("Mem: ", SCRIPT_DIR"sb-memory", 10, 4) \
+    	X("  ", SCRIPT_DIR"sb-loadavg", 5, 5) \
+	X("󰋊 ", SCRIPT_DIR"sb-disk", 1800, 3) \
+    	X(" ", SCRIPT_DIR"sb-memory", 10, 4) \
 	X("", SCRIPT_DIR"sb-date", 1, 10)
 
 #endif  // CONFIG_H
